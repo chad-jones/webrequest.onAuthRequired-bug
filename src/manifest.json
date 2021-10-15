@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "onAuthRequired bug",
+  "short_name": "onAuthRequired bug",
+  "description": "onAuthRequired bug",
+  "version": "1.0.0",
+  "permissions": [
+    "proxy",
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  }
+}
